@@ -135,6 +135,25 @@
             <artifactId>spring-test</artifactId>
             <version>4.3.14.RELEASE</version>
         </dependency>
+        <!-- StringUtils -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <!--上面的dependency是SSM框架所需要的-->
+        <!-- JsonUtils -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.46</version>
+        </dependency>
 
     </dependencies>
 
