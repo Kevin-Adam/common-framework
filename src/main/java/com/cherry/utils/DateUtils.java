@@ -29,11 +29,7 @@ public class DateUtils {
     public static String DATE_PATTERN4 = "yyyyMMddHHmmss";
     public static String DATE_PATTERN5 = "yyyy-MM-dd";
 
-    //test
-    public static void main(String[] args) throws Exception {
-        Integer dayOfWeek = getLeftSeconds("2018-07-10 11:11:11");
-        System.out.println(dayOfWeek);
-    }
+
 
     /**
      * 获得当前时间
@@ -263,6 +259,13 @@ public class DateUtils {
 
     }
 
+
+    //test
+    public static void main(String[] args) throws Exception {
+        Date date = getDate(new Date(), 1);
+        System.out.println(date);
+    }
+
     /**
      * 给特定日期增加或减少相应的天数
      *
@@ -367,7 +370,7 @@ public class DateUtils {
         return c.get(Calendar.HOUR_OF_DAY);
     }
 
-    public static LocalDateTime getDate(int before) {
+    public static LocalDateTime getDate(String s, int before) {
         LocalDateTime date = LocalDateTime.now();
         return date.minusDays(before);
     }
