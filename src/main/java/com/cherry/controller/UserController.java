@@ -26,12 +26,20 @@ public class UserController {
 
     @RequestMapping("/showUser.do")
     public void selectUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
         request.setCharacterEncoding("UTF-8");
+
         response.setCharacterEncoding("UTF-8");
+
         Integer id = Integer.parseInt(request.getParameter("id"));
+
         List<User> Users = this.userService.selectUser(id);
+
         ObjectMapper mapper = new ObjectMapper();
+
         response.getWriter().write(mapper.writeValueAsString(Users));
+
         response.getWriter().close();
+
     }
 }
