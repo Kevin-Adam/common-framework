@@ -39,6 +39,8 @@ public class UserController {
 
         response.getWriter().write(mapper.writeValueAsString(Users));
 
+        System.out.println("test");
+
         response.getWriter().close();
 
     }
