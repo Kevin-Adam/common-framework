@@ -1,6 +1,6 @@
 package com.cherry.utils;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -209,7 +209,9 @@ public class DateUtils {
         if (miliSeconds == null || miliSeconds.isEmpty() || miliSeconds.equals("null")) {
             return "";
         }
-        if (format == null || format.isEmpty()) format = DATE_PATTERN;
+        if (format == null || format.isEmpty()) {
+            format = DATE_PATTERN;
+        }
         SimpleDateFormat sdf = new SimpleDateFormat(format);
         return sdf.format(new Date(Long.valueOf(miliSeconds)));
     }
@@ -225,8 +227,9 @@ public class DateUtils {
     public static Date addDateMinut(Date date, int hour) {
         SimpleDateFormat format = new SimpleDateFormat(DATE_PATTERN);
 
-        if (date == null)
+        if (date == null){
             return null;
+        }
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
         cal.add(Calendar.HOUR, hour);// 24小时制
@@ -246,8 +249,9 @@ public class DateUtils {
     public static Date getDateTime(Date date, String timeStr) {
         SimpleDateFormat format = new SimpleDateFormat(DATE_PATTERN5);
         SimpleDateFormat formatNew = new SimpleDateFormat(DATE_PATTERN);
-        if (date == null)
+        if (date == null){
             return null;
+        }
         String dateStr = format.format(date) + " " + timeStr;
         try {
             date = formatNew.parse(dateStr);
@@ -846,8 +850,9 @@ public class DateUtils {
     public static Date getDateTime(String date, String timeStr) {
         Date dateNew = null;
         SimpleDateFormat format = new SimpleDateFormat(DATE_PATTERN);
-        if (StringUtils.isBlank(date) || StringUtils.isBlank(timeStr))
+        if (StringUtils.isBlank(date) || StringUtils.isBlank(timeStr)){
             return null;
+        }
         String dateStr = date + " " + timeStr.substring(0, 2) + ":" + timeStr.substring(2, 4) + ":00";
         try {
             dateNew = format.parse(dateStr);
