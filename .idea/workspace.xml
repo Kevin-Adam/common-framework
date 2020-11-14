@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be6c0e8-bd43-41a7-80db-99fe69fb8f2e" name="Default" comment="EasyExcelTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4be6c0e8-bd43-41a7-80db-99fe69fb8f2e" name="Default" comment="EasyExcelTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +65,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="settings.editor.splitter.proportion" value="0.22254616" />
   </component>
   <component name="RunManager" selected="JUnit.EasyExcelTest.readAndWritePerson">
@@ -185,6 +183,7 @@
       <workItem from="1605335690063" duration="137000" />
       <workItem from="1605335868612" duration="761000" />
       <workItem from="1605336644797" duration="1540000" />
+      <workItem from="1605345143700" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596892986413</created>
@@ -267,22 +266,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="EasyExcelTest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="443" y="333" key="FileChooserDialogImpl" timestamp="1605342114471">
+    <state x="443" y="333" key="FileChooserDialogImpl" timestamp="1605345152378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="443" y="333" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605342114471" />
-    <state x="461" y="164" width="1383" height="711" key="SettingsEditor" timestamp="1605342118111">
+    <state x="443" y="333" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605345152378" />
+    <state x="167" y="143" width="1383" height="711" key="SettingsEditor" timestamp="1605345391763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" width="1383" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605342118111" />
+    <state x="167" y="143" width="1383" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605345391763" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605337458235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605337458235" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605336746367">
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605345157639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605336746367" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605345157639" />
     <state x="525" y="102" width="1037" height="802" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605337297047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
