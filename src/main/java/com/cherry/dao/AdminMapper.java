@@ -3,6 +3,7 @@ package com.cherry.dao;
 import com.cherry.entity.Admin;
 
 public interface AdminMapper {
+
     int deleteByPrimaryKey(Integer adminId);
 
     int insert(Admin record);

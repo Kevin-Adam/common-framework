@@ -15,7 +15,8 @@ public class EasyExcelTest {
 
     @Test
     public void readAndWritePerson() {
-        String fileName = "E:/test/人口普查乱序.xlsx";
+        //String fileName = "E:/test/一二组乱序.xlsx";
+        String fileName = "E:/test/三四五组乱序 (2).xlsx";
         // 这里 需要指定读用哪个class去读，然后读取第一个sheet 文件流会自动关闭
         // 参数一：读取的excel文件路径
         // 参数二：读取sheet的一行，将参数封装在PersonInfo实体类中

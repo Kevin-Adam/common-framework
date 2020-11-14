@@ -79,8 +79,14 @@ public class PersonInfoListener extends AnalysisEventListener<PersonInfo> {
                     userInfo.setAddress("宁夏回族自治区固原市隆德县（市，区）");
                     if("杨坡村一组".equals(info.getGroup().trim())){
                         userInfo.setDetailAddress("温堡乡杨坡村一组");
-                    }else {
+                    }else if("杨坡村二组".equals(info.getGroup().trim())){
                         userInfo.setDetailAddress("温堡乡杨坡村二组");
+                    }else if("杨坡村三组".equals(info.getGroup().trim())){
+                        userInfo.setDetailAddress("温堡乡杨坡村三组");
+                    }else if("杨坡村四组".equals(info.getGroup().trim())){
+                        userInfo.setDetailAddress("温堡乡杨坡村四组");
+                    }else {
+                        userInfo.setDetailAddress("温堡乡杨坡村五组");
                     }
                 }
                 userInfos.add(userInfo);
@@ -89,7 +95,8 @@ public class PersonInfoListener extends AnalysisEventListener<PersonInfo> {
             //userInfos.add(new UserInfo());
         }
         //step3:排序后写入新表格
-        String fileName = "E:/test/人口普查分组排序1.xlsx";
+        //String fileName = "E:/test/一二组分组排序.xlsx";
+        String fileName = "E:/test/三四五组分组排序(2).xlsx";
         EasyExcel.write(fileName, UserInfo.class).sheet("排序").doWrite(userInfos);
     }
 
